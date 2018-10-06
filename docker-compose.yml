@@ -1,7 +1,7 @@
 version:  '3'
 services:
   datascience-notebook:
-      image:    jupyter/datascience-notebook
+      build: .
       volumes:
         - ${LOCAL_WORKING_DIR}:/home/jovyan/work
       ports:
