@@ -1,3 +1,3 @@
 FROM jupyter/datascience-notebook
 
-RUN pip install -U scikit-learn
+RUN pip install -U scikit-learn xgboost
